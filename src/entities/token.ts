@@ -70,5 +70,12 @@ export const WETH = {
     18,
     'WBNB',
     'Wrapped BNB'
+  ),
+    [ChainId.GANACHE]: new Token(
+    ChainId.GANACHE,
+    '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+    18,
+    'WBNB',
+    'Wrapped BNB'
   )
 }
